@@ -1,0 +1,214 @@
+.lenFix {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.tdwIcon {
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+}
+
+.bgSide {
+    background-color: #191818;
+}
+
+.heroIcon {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.menuBoard {
+    display: flex;
+    flex-direction: column;
+}
+
+.menuBoard a {
+    padding: 10px;
+    color: gray;
+}
+
+.sidebarIcon {
+    padding-right: 20px;
+}
+
+.topnav {
+    background-color: #f2f2f2;
+}
+
+.dashText {
+    display: flex;
+    padding-top: 25px;
+}
+
+.dashText1 {
+    color: #727272;
+    font-weight: 350;
+    margin-left: -100px;
+}
+.dashText2 {
+    color: gray;
+    opacity: 0.6;
+    padding:13px;
+}
+.topSearch {
+        display: flex;
+    justify-content: flex-end;
+    padding-top: 25px;
+}
+.boxSearch {
+    margin-right: 15px;
+     border-color: transparent;
+}
+.helpButton {
+    border-color: transparent;
+    background-color: #fdaa29;
+    color: white;
+    padding: 3px 10px;
+}
+.midPara {
+        padding: 25px 50px;
+    display: inline-block;
+    color: gray;
+    font-size: 20px;
+    font-weight: 200;
+}
+ol li {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#myChart {
+    width: 500px!important;
+    height: 250px!important;
+    margin-left: 50px;
+}
+.footerPara1 {
+    color: skyblue;
+    text-align: center;
+}
+.footerPara2 {
+    color: red;
+    text-align: center;
+}
+.footerPara3 {
+    color: darkorange;
+    text-align: center;
+}
+.footerPara4 {
+    color: green;
+    text-align: center;
+}
+
+@media (min-width: 1200px) and (max-width: 1676px) { 
+    .dashText1 {
+    margin-left: 0px;
+}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) { 
+    .dashText1 {
+    margin-left: 0px;
+}
+    #myChart {
+    width: 100%!important;
+    height: 250px!important;
+    margin-left: 0px;
+        margin-left: 15px;
+}
+    .midPara {
+    padding: 25px 20px;
+}
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px) { 
+     .heroIcon {
+    justify-content: space-evenly;
+}
+    .menuBoard {
+    display: flex;
+    flex-direction: row;
+        justify-content: space-between;
+}
+    .sidebarIcon {
+    padding-right: 5px;
+}
+    .dashText1 {
+    margin-left: 0px;
+}
+    ol {
+        padding-left: 70px;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) { 
+    .heroIcon {
+    justify-content: space-evenly;
+}
+    .menuBoard {
+    display: flex;
+    flex-direction: row;
+        justify-content: space-between;
+}
+    .sidebarIcon {
+    padding-right: 5px;
+}
+    .menuBoard a {
+    padding: 20px 0px;
+    color: gray;
+    font-size: 14px;
+}
+    .dashText {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+    .dashText1 {
+    margin-left: 0px;
+}
+    .topSearch {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+    .midPara {
+    padding: 50px 0px 0px 25px;
+}
+    
+}
+
+
+
+@media (max-width: 575px) { 
+.heroIcon {
+    justify-content: space-evenly;
+}
+    .dashText1 {
+        margin-left: 0px;
+    }
+    .topSearch {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+}
+    .dashText {
+    display: flex;
+    padding-top: 25px;
+    padding-left: 45px;
+}
+    #myChart {
+    width: 90%!important;
+    height: 250px!important;
+    margin-left: 20px;
+}
+}
+
+
+
+
+
+
+
+

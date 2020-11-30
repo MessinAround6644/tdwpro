@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>TDW</title>
+</head>
+
+<body>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2 bgSide">
+                <div class="tdwIcon"><img src="img/TDW.png"></div>
+                <div class="tdwIcon"><img src="img/hero.png"></div>
+                <div class="heroIcon">
+                    <a href="#"><img src="img/icon1.png"></a>
+                    <a href="#"><img src="img/icon2.png"></a>
+                    <a href="#"><img src="img/icon3.png"></a>
+                </div>
+                <div class="menuBoard">
+                    <a href="#dashboard"><img src="img/dashboard.png" class="sidebarIcon">Dashboard</a>
+                    <a href="#users"><img src="img/user.png" class="sidebarIcon">Users</a>
+                    <a href="#media"><img src="img/media.png" class="sidebarIcon">Media</a>
+                    <a href="#widgets"><img src="img/widgets.png" class="sidebarIcon">Widgets</a>
+                    <a href="#statistics"><img src="img/statistics.png" class="sidebarIcon">Statistics</a>
+                    <a href="#reports"><img src="img/reports.png" class="sidebarIcon">Reports</a>
+                    <a href="#info"><img src="img/info.png" class="sidebarIcon">Info</a>
+                </div>
+
+            </div>
+            <div class="col-lg-10 lenFix">
+                <div class="topnav">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="dashText">
+                                    <h2 class="dashText1">Dashboard</h2>
+                                    <p class="dashText2">Summary of your application</p>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="topSearch">
+                                    <input type="text" placeholder="search.." class="boxSearch">
+                                    <button class="helpButton">Help/Suport</button>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-lg-7 lenFix">
+                        <p class="midPara">Weekly Statistics <img src="img/refresh.png"></p>
+                        <canvas id="myChart"></canvas>
+                    </div>
+                    <div class="col-lg-5">
+                        <p class="midPara">Usage Overview</p>
+                        <div>
+                            <ol type="a">
+                                <li> <img src="img/sidea.png"></li>
+                                <li> <img src="img/sideb.png"></li>
+                                <li> <img src="img/sidec.png"></li>
+                                <li> <img src="img/sided.png"></li>
+
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-5 progress1">
+                    <div class="col-lg-3 col-md-3">
+                        <p class="footerPara1">Backlog</p>
+                        <canvas id="chartProgress"></canvas>
+                        
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <p class="footerPara2">To Do</p>
+                        <canvas id="chartProgress1"></canvas>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <p class="footerPara3">In Progress</p>
+                        <canvas id="chartProgress2"></canvas>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <p class="footerPara4">Done</p>
+                        <canvas id="chartProgress3"></canvas>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body></html>
+    
